@@ -96,16 +96,39 @@
 
 
 
-var min = function(list){
-    return Math.min.apply(null,list);
+// var min = function(list){
+//     return Math.min.apply(null,list);
+// }
+
+// var max = function(list){
+//     return Math.max.apply(null,list);
+// }
+
+
+
+
+
+// Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+
+// For example,
+
+// [true,  true,  true,  false,
+//   true,  true,  true,  true ,
+//   true,  false, true,  false,
+//   true,  false, false, true ,
+//   true,  true,  true,  true ,
+//   false, false, true,  true]
+// The correct answer would be 17.
+
+
+function countSheeps(arrayOfSheeps){
+    let num = 0
+    for (let i = 0;i < arrayOfSheeps.length; i++ )
+    if (arrayOfSheeps[i] == true)
+    num++
+
+    return num
 }
-
-var max = function(list){
-    return Math.max.apply(null,list);
-}
-
-
-
 
 
 
