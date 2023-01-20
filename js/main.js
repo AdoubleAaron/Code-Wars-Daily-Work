@@ -56,7 +56,7 @@
 // Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
 
 // function digitize(n) {
-//   return String(n).split('').map(Number).reverse()
+//      return String(n).split('').map(Number).reverse()
 // }
 
 
@@ -67,14 +67,12 @@
 // Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
 // start with let summation = function (num)
 
-
-// let summation = function (num) { 
-//   let result = 0;
-//   for (let i = 1; i <= num; i++) {
-//     result += i;
-//   }
-  
-//   return result;
+// let summation = function(num){
+//     let result = 0
+//     for(let i = 0;i <= num;i++){
+//         result += i 
+//     } 
+//     return result
 // }
 
 
@@ -186,3 +184,25 @@
 //     }
 //   }
 
+
+// const StringToNum = function toNumber(str){
+//     return Number(str)
+// }
+
+
+// Your classmates asked you to copy some paperwork for them. You know that there are 'n' classmates and the paperwork has 'm' pages.
+
+// Your task is to calculate how many blank pages do you need. If n < 0 or m < 0 return 0.
+
+// Example:
+// n= 5, m=5: 25
+// n=-5, m=5:  0
+
+
+
+function paperwork(n, m) {
+    if (m < 0 || n < 0) {
+      return 0;
+    }
+    return m * n;
+  }
