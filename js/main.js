@@ -214,9 +214,6 @@
 
 
 
-
-
-
 // Create a function which answers the question "Are you playing banjo?".
 // If your name starts with the letter "R" or lower case "r", you are playing banjo!
 
@@ -226,14 +223,36 @@
 // name + " does not play banjo"
 
 
+// function areYouPlayingBanjo(name) {
+//   if (name[0] == 'R' || name[0] == 'r') { 
+//     return name + " plays banjo";
+//   }else{
+//   return name + " does not play banjo";
+// }
+// }
 
-function areYouPlayingBanjo(name) {
-  if (name[0] == 'R' || name[0] == 'r') { 
-    return name + " plays banjo";
-  }
-  return name + " does not play banjo";
-}
 
+
+// In this Kata we are passing a number (n) into a function.
+
+// Your code will determine if the number passed is even (or not).
+
+// The function needs to return either a true or false.
+
+// Numbers may be positive or negative, integers or floats.
+
+// Floats with decimal part non equal to zero are considered UNeven for this kata.
+
+
+
+// function testEven(n) {
+//   //Your awesome code here!
+// if(n % 2==0){
+//   return true
+// }else{
+//   return false
+// }
+// }
 
 
 
