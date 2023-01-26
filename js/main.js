@@ -5,8 +5,11 @@
 //const stringToNumber = function(str){
 //    return Number(str)
 //}
-
-//console.log(typeof str)
+//or 
+//function numberToString(num) {
+//     return num.toString()
+ 
+// }
 
 
 
@@ -254,5 +257,28 @@
 // }
 // }
 
+
+// Create a function with two arguments that will return an array of the first n multiples of x.
+// Assume both the given number and the number of times to count will be positive numbers greater than 0.
+// Return the results as an array or list ( depending on language ).    
+// 
+
+// function countBy(x, n){
+//     let z = []
+//     for( let i = 0; i <= n; i++){
+//         z.push(x*i)
+//     }
+//     return z
+// }
+
+
+
+
+// The cockroach is one of the fastest insects. Write a function which takes its speed in km per hour and returns it in cm per second, rounded down to the integer (= floored).
+
+function cockroachSpeed(s) {
+    //Good Luck!
+    return Math.floor(s*27.777778)
+  }
 
 
