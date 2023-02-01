@@ -312,10 +312,31 @@
 // Now you have to write a function that takes an argument and returns the square of it.
 
 
-// Write the "square"-function here
-let square = function (num){
-  return num*num
+// let square = function (num){
+//   return num*num
+// }
+
+
+
+
+
+// Write a function which calculates the average of the numbers in a given list.
+
+// Note: Empty arrays should return 0.
+
+
+function findAverage(array) {
+  let num = 0 
+  for(let i =0; i < array.length; i++){
+    num += array[i]
+  }
+  if (array.length === 0){
+    return 0
+  }else{
+    return num / array.length
+  }
 }
+
 
 
 
