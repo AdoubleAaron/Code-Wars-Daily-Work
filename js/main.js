@@ -288,9 +288,9 @@
 // 'world'  =>  'dlrow'
 // 'word'   =>  'drow'
 
-function solution(str){
-  return str.split('').reverse().join('')
-}
+// function solution(str){
+//   return str.split('').reverse().join('')
+// }
 
 
 
@@ -300,6 +300,24 @@ function solution(str){
 // Write a function that takes an array of words and smashes them together into a sentence and returns the sentence. You can ignore any need to sanitize words or add punctuation, but you should add spaces between each word. Be careful, there shouldn't be a space at the beginning or the end of the sentence!
 
 
-smash = function (words) {
-  return words.join(" ");
-};
+// smash = function (words) {
+//   return words.join(" ");
+// };
+
+
+
+
+
+// function 2-squaring an argument
+// Now you have to write a function that takes an argument and returns the square of it.
+
+
+// Write the "square"-function here
+let square = function (num){
+  return num*num
+}
+
+
+
+
+
