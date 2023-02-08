@@ -346,14 +346,22 @@
 
 
 
-function squareSum(numbers){
-  var result = 0;
-  for (var i = 0; i < numbers.length; i++) {
-    result += (numbers[i] * numbers[i]);
-  }
-  return result;
-}
+// function squareSum(numbers){
+//   var result = 0;
+//   for (var i = 0; i < numbers.length; i++) {
+//     result += (numbers[i] * numbers[i]);
+//   }
+//   return result;
+// }
 
 
 
 
+
+// Is the string uppercase?
+// Task
+// Create a method to see whether the string is ALL CAPS.
+
+// String.prototype.isUpperCase = function() {
+//   return this.toUpperCase() === this.toString();
+// }
